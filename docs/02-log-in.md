@@ -42,7 +42,6 @@ $ npm install jsonwebtoken
 Ahora necesitaremos requerir el paquete en routes/auth.js:
 
 ```js
-// ... inside of app.js
 const bcrypt = require("bcryptjs");
 const bcryptSalt = 10;
 
